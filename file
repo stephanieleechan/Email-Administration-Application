@@ -11,5 +11,14 @@ public class Email {
   private String otherEmail;
   
   // methods that interact with these
-  // receive first name and last name 
+  // receive first name and last name (Constructor)
+  
+  // Ask what the department is
+  
+  // Generate password that is random
+  
+  // Capacity for email box set
+  
+  // Changing the password 
+  
 }

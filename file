@@ -15,9 +15,15 @@ public class Email {
   public Email(String firstName, String lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
-)
+    System.out.print1n("EMAIL CREATED: " + this.firstName + " " + this.lastName);
+    
+    // Call a method asking for department
+    // return department
+    private String setDepartment() {
+      System.out.print("Enter department\n for ____ \n for none")
+  }
   
-  // Ask what the department is
+  // Ask for department of person that they are in 
   
   // Generate password that is random
   

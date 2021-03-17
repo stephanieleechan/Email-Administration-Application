@@ -12,6 +12,10 @@ public class Email {
   
   // methods that interact with these
   // receive first name and last name (Constructor)
+  public Email(String firstName, String lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+)
   
   // Ask what the department is
   

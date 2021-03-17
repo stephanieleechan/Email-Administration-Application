@@ -1,3 +1,3 @@
-# Email-Administration-Application
+# Email-System
 
-Java | Email Administration Application
+Java | Email System

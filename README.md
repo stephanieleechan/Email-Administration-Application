@@ -1,3 +1,3 @@
-# Email-System
+# Email-Management-System
 
 Java | Email System

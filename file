@@ -7,7 +7,7 @@ public class Email {
   private String lastName;
   private String password;
   private String department;
-  private int emailboxLimit;
+  private int mailboxLimit;
   private String otherEmail;
   
   // methods that interact with these
@@ -53,4 +53,11 @@ public class Email {
   public String getAlternateEmail() { return alternateEmail; }
   public String getPassword() { return password; }
   
+  // know name, email, mail box capacity
+  public String showInfo() {
+    return "Display Name: " + firstName + " " + lastName + 
+      "Company Email: " + " " + email + 
+      "Mailbox Capacity : " + "  " + mailBoxCapacity + "mb"
+  
+  }
 }

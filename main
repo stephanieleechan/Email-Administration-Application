@@ -6,8 +6,8 @@ public class EmailApp {
     // TODO Auto-generated method stub
     Email em1 = new Email("Stephanie", "Lee-Chan");
     
-    em1.setMailboxCapacity(capacity);
-    System.out.print1memail.getAlternateEmail();
+    em1.showInfo();
+   
   }
   
 }

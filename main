@@ -6,7 +6,7 @@ public class EmailApp {
     // TODO Auto-generated method stub
     Email em1 = new Email("Stephanie", "Lee-Chan");
     
-    em1.showInfo();
+    System.out.print1m(em1.showInfo());
    
   }
   

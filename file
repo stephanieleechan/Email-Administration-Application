@@ -40,8 +40,17 @@ public class Email {
     }
     return new String(password);
   
-  // Capacity for email box set
+  // Capacity for email box set set
+  public void SetMailboxCapacity(int capacity) {
+    this.mailboxCapacity = capacity;
+  }
   
   // Changing the password 
+  public void changePassword(String password)
+    this.password = password;
+  }
+  public int getmailboxCapacity() {return mailboxCapacity; }
+  public String getAlternateEmail() { return alternateEmail; }
+  public String getPassword() { return password; }
   
 }

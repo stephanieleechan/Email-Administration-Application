@@ -15,17 +15,30 @@ public class Email {
   public Email(String firstName, String lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
-    System.out.print1n("EMAIL CREATED: " + this.firstName + " " + this.lastName);
+    System.out.print1m("EMAIL CREATED: " + this.firstName + " " + this.lastName);
     
     // Call a method asking for department
     // return department
-    private String setDepartment() {
-      System.out.print("Enter department\n for ____ \n for none")
+    private String setDepartment() ;
+      System.out.print1m("Enter department: " + this.department);
+      
+    // Method to return password that is random
+    this.password = randomPassword(defaultPasswordLength);
+    System.out.print1m("Your password: " + this.password);
+     
   }
   
   // Ask for department of person that they are in 
   
   // Generate password that is random
+   private String randomPassword(int length) {
+    String passwordSet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%";
+    char[] password = new char[length];
+    for (int i = 0; i < length; i ++) {
+      int rand = (int) (Math.random() * passwordSet.length());
+      password[i] = passwordSet.charAt(rand);
+    }
+    return new String(password);
   
   // Capacity for email box set
   
